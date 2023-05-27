@@ -18,20 +18,28 @@ Program ini terdiri dari 4 kelas, yaitu:
 
 ## Dokumentasi
 - Landing Page
+
 ![Landing](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/bcd084fd-62f2-48f1-b49e-838f3368db21)
 
 - Home Page
-- ![Home](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/ced260cd-4e1d-4704-8ae9-0350a11d6b16)
+
+![Home](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/ced260cd-4e1d-4704-8ae9-0350a11d6b16)
 
 - Detail Apartemen
+
 ![Apartemen](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/72b8a09a-e485-4683-aaea-fad304bb0458)
 
 - Detail Rumah
+
 ![Rumah](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/36b5edd9-def6-4c88-a7e7-7970e8f65653)
 
 - Detail Indekos
+
 ![Indekos](https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/5241e8e6-787c-4dd8-a2f7-0f4c6ff0ad6f)
 
 - Video Preview
-https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/10693bb7-e1a8-4325-83c4-ab85a4112541
+
+https://github.com/PIPPIRIPPIP/LP9DPBO2023C2/assets/87317233/ad3dee8b-7bd4-49a7-af3b-986e99622306
+
+
 
