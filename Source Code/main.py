@@ -112,7 +112,7 @@ y = (screen_height / 2) - (window_height / 2)
 root.geometry(f'{window_width}x{window_height}+{int(x)}+{int(y)}')
 
 # Load and display image
-image = Image.open("images/logo.png")
+image = Image.open("Source Code/images/logo.png")
 image = image.resize((200, 200), Image.ANTIALIAS)
 photo = ImageTk.PhotoImage(image)
 label = tk.Label(root,image=photo)
