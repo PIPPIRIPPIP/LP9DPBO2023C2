@@ -6,10 +6,10 @@ import tkinter as tk
 from PIL import ImageTk, Image
 
 hunians = []
-hunians.append(Apartemen("Ayesha", 3, 3))
-hunians.append(Rumah("Ali", 5, 2))
-hunians.append(Indekos("Firdaus", "Skypaaww"))
-hunians.append(Rumah("Pipaaww", 1, 4))
+hunians.append(Apartemen("Ayesha", 3, 3, 10000000))
+hunians.append(Rumah("Ali", 5, 2, 500))
+hunians.append(Indekos("Firdaus", "Skypaaww", 1000000))
+hunians.append(Rumah("Pipaaww", 1, 4, 100))
 
 def show_home():
     # Clear window
@@ -73,6 +73,14 @@ def details(index):
     i += 1
     Label(d_frame, text="Jumlah Penghuni: " + str(hunians[index].get_jml_penghuni()), anchor="w").grid(row=i, column=0, sticky="w")
     i += 1
+    if(hunians[index].get_jenis() == "Rumah"):
+        Label(d_frame, text="Harga Beli: Rp. " + str(hunians[index].get_harga()) + " juta", anchor="w").grid(row=i, column=0, sticky="w")
+        i += 1
+    else:
+        Label(d_frame, text="Harga Sewa: Rp. " + str(hunians[index].get_harga()), anchor="w").grid(row=i, column=0, sticky="w")
+        i += 1
+
+        
     Label(d_frame, text="Dokumen: " + hunians[index].get_dokumen(), anchor="w").grid(row=i, column=0, sticky="w")
     i += 1
 
